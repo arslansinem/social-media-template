@@ -1,7 +1,7 @@
 body {
   background-color: #eeeeee !important;
 }
-.post-section {
+.section-one {
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -20,7 +20,6 @@ body {
 }
 .description:focus-visible{
   outline: none !important;
-  
 }
 .photo {
   display: flex;
@@ -28,26 +27,12 @@ body {
 }
 .photo-1 {
   border-radius: 10px;
-  width: 80px;
+  width: 15%;
 }
 .posts {
   display: flex;
   gap: 10px;
   padding: 20px 0px 20px 35px;
-}
-.add-icon {
-  box-sizing: border-box;
-  position: absolute;
-  width: 106.81px;
-  height: 106.81px;
-  border: 1px solid #abb6ba;
-  border-radius: 10px;
-  margin-left: 180px;
-  height: 80px;
-  width: 80px;
-  display: flex;
-  justify-content: center !important;
-  align-items: center !important;
 }
 .fa-plus {
   font-size: 31px !important;
@@ -63,8 +48,8 @@ body {
 .profile-photo{
   display: flex;
   gap: 30px;
-  padding-top: 30px;
-  padding-left: 35px;
+  padding-top: 5%;
+  padding-left: 7%;
 }
 .line{
   width:598.400px;
@@ -89,6 +74,14 @@ body {
   font-weight: 500 !important;
   font-family:Arial, Helvetica, sans-serif;
 }
+.rectangle{
+  width: 15%;
+  border: 2px solid #C4C4C4;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .share-button{
   border: 0px;
   background-color: #1666B3;
@@ -100,11 +93,12 @@ body {
   margin-right: 35px;
   font-weight: 600;
 }
-.first-post-section{
+.section-two{
   display: flex;
   justify-content: center;
   margin-top: 30px;
   }
+  
   @media (max-width: 768px) {
   .body-card{
     width: 80%;
@@ -114,14 +108,9 @@ body {
     margin-bottom: 10px;
   }
   .posts{
-   width: 30%;
-   height: 50%;
+   width: 100%;
+   height: auto;
    padding-left: 20px;
-  }
-  .add-icon{
-    width: 58.650px;
-    height: 59.200px;
-    margin-left: 140px;
   }
   .description{
     font-size: 12px;
@@ -152,22 +141,27 @@ body {
     gap: 10px;
   }
   }
-  .user-info{
+
+.user-info{
     display: flex;
     gap: 10px;
     align-items: center;
   }
-  .name{
-    font-size: 15px;    
-  }
-  .date{
-    font-size: 11px;
-  }
-  .first-post-card{
+.first-post-card{
     width: 600px !important;
     height: 500px;
     background-color: #ffffff;
+    border: 1px solid #C4C4C4;
+    background-color: white;
+    box-shadow: 1px 1px #c4c4c4 !important;
+    border-radius: 7px !important;
   }
-  .user-row{
-    align-items: center;
+.user-row{
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+  text-align: center;
   }
+.options{
+  display: flex;
+}
