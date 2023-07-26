@@ -1,1 +1,1 @@
-![image](https://github.com/arslansinem/social-media-template/assets/117895601/4e91b7d8-6387-4448-98d7-1c34af6575d2)
+![Opera Anlık Görüntü_2023-07-26_174756_127 0 0 1](https://github.com/arslansinem/social-media-template/assets/117895601/12d70224-96a6-48e4-852e-7743fd350507)
